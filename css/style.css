@@ -1,1 +1,116 @@
-/*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: "Barlow", sans-serif;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+button {
+  cursor: pointer;
+  color: inherit;
+  background-color: inherit;
+  border: none;
+  outline: none;
+}
+
+a {
+  color: inherit;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.wrapper {
+  width: 100vw;
+  min-height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.header__container {
+  height: 5.625rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 15%;
+}
+
+._container {
+  max-width: 70.625rem;
+  padding-inline: 0.5rem;
+  margin: 0 auto;
+}
+
+.header__logo {
+  max-width: 8.9375rem;
+  max-height: 28px;
+  overflow: hidden;
+}
+.header__logo img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+}
+
+.body__container {
+  background-image: url(../img/d46fa455604191d9939ea38dde4bb134.jfif);
+  background-size: cover;
+  background-position: 100% 50%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 18.75rem;
+}/*# sourceMappingURL=style.css.map */

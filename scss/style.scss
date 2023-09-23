@@ -1,0 +1,36 @@
+@import "nul";
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap");
+
+.header__container {
+   height: 5.625rem;
+   display: grid;
+   grid-template-columns: 1fr;
+   align-items: center;
+   position: fixed;
+   top: 0;
+   left: 15%;
+}
+._container {
+   max-width: 70.625rem;
+   padding-inline: 0.5rem;
+   margin: 0 auto;
+}
+.header__logo {
+   max-width: 8.9375rem;
+   max-height: 28px;
+   overflow: hidden;
+   img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+   }
+}
+.body__container {
+   background-image: url(../img/d46fa455604191d9939ea38dde4bb134.jfif);
+   background-size: cover;
+   background-position: 100% 50%;
+   background-repeat: no-repeat;
+   width: 100%;
+   height: 18.75rem;
+}

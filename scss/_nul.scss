@@ -38,8 +38,7 @@ ul {
 html,
 body {
    height: 100%;
-   font-family: 'Inter', sans-serif;
-   font-family: 'Poppins', sans-serif;
+   font-family: "Barlow", sans-serif;
 }
 
 input,
@@ -69,7 +68,9 @@ a:visited {
 a:hover {
    text-decoration: none;
 }
-.wrapper{
+.wrapper {
+   width: 100vw;
    min-height: 100%;
    overflow: hidden;
+   position: relative;
 }
