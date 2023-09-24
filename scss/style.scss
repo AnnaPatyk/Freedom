@@ -13,10 +13,10 @@ $color-footer: hsl(210, 13%, 9%);
 }
 //-----------------header-------------------------------------------------------------------------------------------------
 .header__container {
-   height: 5.625rem;
    display: grid;
    grid-template-columns: 1fr;
    align-items: center;
+   padding-block: 1.875rem;
    margin-bottom: 5.9375rem;
 }
 
@@ -171,13 +171,16 @@ $color-footer: hsl(210, 13%, 9%);
    li {
       position: relative;
       margin-left: 2.4375rem;
+      font-weight: 700;
+      line-height: 1.25rem;
+      text-transform: uppercase;
    }
 }
 li::before {
    content: "";
    display: inline-block;
-   width: 24px;
-   height: 24px;
+   width: 1.5rem;
+   height: 1.5rem;
    background-image: url(../img/galochka.svg);
    background-size: cover;
    background-repeat: no-repeat;
@@ -223,7 +226,7 @@ li::before {
 //----------footer----------------------------------------------------------------------------------------
 .footer {
    background-color: $color-footer;
-   padding-block: 2.5rem;
+   padding: 2.5rem 1rem;
 }
 .footer__container {
    display: flex;
@@ -254,3 +257,5 @@ li::before {
       }
    }
 }
+
+@import "adapt";
