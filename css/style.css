@@ -435,4 +435,20 @@ li::before {
   .blok--two--text {
     font-size: 1.5rem;
   }
+}
+.error {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.blok__content--error {
+  width: 100%;
+  height: 100%;
+}
+.blok__content--error .title--error {
+  text-align: center;
+  color: #e11b19;
+  font-size: 3.5rem;
+  font-weight: 700;
 }/*# sourceMappingURL=style.css.map */
